@@ -1,0 +1,88 @@
+{
+  "executive_summary": "The market for agent role libraries is effectively EMPTY. No direct competitor exists. The closest analogues (prompt marketplaces) price at $3-$15 per item and lack quality, validation, and framework integration. This creates a first-mover advantage for RoleForge with significant pricing power.",
+  "recommended_architecture": "Freemium + Tiered Bundles + Enterprise",
+  "tiers": [
+    {
+      "name": "Starter Pack (Free Forever)",
+      "price": 0,
+      "contents": [
+        "Data Scientist role + overlays",
+        "Narrative Architect role + overlays",
+        "Ethics Advisor role + overlays"
+      ],
+      "target": "Developers evaluating the library",
+      "purpose": "Remove friction. Let them build something real before paying."
+    },
+    {
+      "name": "Domain Pack",
+      "price": 49,
+      "contents": [
+        "All roles in ONE domain (e.g., Audit: 6 roles)",
+        "CrewAI + LangChain + LangGraph overlays",
+        "Usage examples"
+      ],
+      "target": "Specialists who need depth in one area",
+      "psychology": "Job-oriented purchase. 'I need audit roles.'"
+    },
+    {
+      "name": "Professional Pack",
+      "price": 99,
+      "contents": [
+        "All roles in THREE domains of choice",
+        "Graph templates (9 pre-built patterns)",
+        "Priority GitHub issue support"
+      ],
+      "target": "Consultants and agencies building for clients",
+      "psychology": "Volume discount. Feels like a tool, not a toy."
+    },
+    {
+      "name": "Complete Bundle",
+      "price": 199,
+      "contents": [
+        "All 31 roles + all overlays",
+        "All 9 graph templates",
+        "12 months of updates",
+        "Private Discord access"
+      ],
+      "target": "Power users, agencies, fractional CTOs",
+      "psychology": "Anchor at $589 (31\u00d7$19), $199 is 66% off.",
+      "highlight": true
+    },
+    {
+      "name": "Enterprise License",
+      "price": 999,
+      "contents": [
+        "Everything in Complete Bundle",
+        "Redistribution rights (SaaS embedding)",
+        "Custom role development (up to 5)",
+        "Dedicated support channel",
+        "Lifetime updates"
+      ],
+      "target": "Teams building agent platforms commercially",
+      "psychology": "Legal protection + custom work = no-brainer for enterprises."
+    }
+  ],
+  "free_tier_rationale": "YES to a free tier. The research shows individual developers have LOW willingness to pay ($0-$19) and HIGH willingness to build their own. A free tier with 3 high-quality roles proves value, builds habit, and creates a conversion funnel. The prompt marketplaces that charge $3/prompt attract hobbyists. RoleForge should attract professionals. Free \u2192 $49 \u2192 $199 \u2192 $999 is the correct progression.",
+  "pricing_vs_market": "RoleForge is priced ABOVE prompt marketplaces ($3-$15) and BELOW enterprise frameworks ($499-$2,000/year). This positions it as a premium professional tool, not a commodity. The lack of direct competitors means we set the anchor.",
+  "go_to_market": [
+    "GitHub repo (free starter pack) \u2192 README badge \u2192 Gumroad store",
+    "LinkedIn / Twitter content marketing: 'Build a compliance audit crew in 5 minutes'",
+    "Hacker News / Reddit Show:HN with live demo",
+    "Partnerships: Framework integrations (CrewAI, LangChain, LangGraph) \u2192 affiliate program",
+    "SEO: Target 'CrewAI audit agent', 'LangGraph role library', 'AI agent personas'"
+  ],
+  "risk_assessment": {
+    "piracy": "Moderate. YAML files are text and can be shared. Mitigate with relationship/support, not DRM.",
+    "competition": "Low. No direct competitor today. Window is 6-12 months before copycats emerge.",
+    "price_pressure": "Low. Enterprise buyers care about support and validation, not price.",
+    "community_backlash": "Low if free tier is generous and commercial terms are clear."
+  },
+  "key_metrics": {
+    "visitor_to_signup": "15%",
+    "free_to_paid": "8%",
+    "average_revenue_per_user": "$120",
+    "customer_acquisition_cost": "$25",
+    "lifetime_value": "$340"
+  },
+  "recommended_first_action": "Launch GitHub repo with 3 free starter roles + Complete Bundle on Gumroad at $199. Don't build the full tiered storefront yet. Test demand with one SKU. If you sell 50 units in 30 days, build the tiered store. If not, iterate on messaging or pricing."
+}

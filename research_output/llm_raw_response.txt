@@ -1,0 +1,119 @@
+{
+  "comparable_products": [
+    {
+      "name": "CrewAI",
+      "type": "Role-based multi-agent orchestration framework",
+      "price_range": "$0 self-hosted; cloud plans ~$29-$299/mo or usage-based ~$0.05-$0.50/task",
+      "model": "Open-core + SaaS cloud",
+      "url": "https://www.crewai.com"
+    },
+    {
+      "name": "LangGraph / LangChain",
+      "type": "Agent orchestration framework + observability",
+      "price_range": "LangGraph library $0 (MIT); LangSmith $0-$39/user/mo; LangGraph Cloud usage-based",
+      "model": "Open-source library + paid observability/cloud",
+      "url": "https://www.langchain.com"
+    },
+    {
+      "name": "Persona 500 Agent Templates",
+      "type": "Curated AI agent template library",
+      "price_range": "$19-$99 one-time per template or $29-$79/mo subscription",
+      "model": "Template marketplace / subscription",
+      "url": "https://persona500.com"
+    },
+    {
+      "name": "Promptly AI / PrompTessor",
+      "type": "Prompt engineering assistant and prompt library",
+      "price_range": "$0-$20/mo or $5-$49 one-time packs",
+      "model": "Freemium SaaS / one-time prompt sales",
+      "url": "https://promptlyai.com"
+    },
+    {
+      "name": "Oracle Fusion Application AI Agent Marketplace",
+      "type": "Enterprise-certified agent template marketplace",
+      "price_range": "$10,000-$100,000+ annual contracts",
+      "model": "Enterprise marketplace + support subscriptions",
+      "url": "https://www.oracle.com/fusion-cloud-applications/ai-agent-marketplace"
+    },
+    {
+      "name": "Gumroad AI agent role packs",
+      "type": "Indie one-time role/prompt packs",
+      "price_range": "$5-$49 one-time",
+      "model": "Direct digital download",
+      "url": "https://gumroad.com/discover"
+    }
+  ],
+  "pricing_signals": {
+    "open_source_frameworks": "$0 self-hosted; optional cloud $29-$299/mo or $0.05-$0.50 per task",
+    "prompt_persona_template_marketplaces": "$5-$99 one-time; subscription libraries $15-$79/mo",
+    "agent_orchestration_saas": "$0-$39/user/mo for observability; cloud compute $0.01-$0.10 per node invocation",
+    "enterprise_agent_marketplaces": "$10,000-$100,000+ annual contracts",
+    "indie_gumroad_role_packs": "$5-$49 one-time"
+  },
+  "market_gaps": [
+    "No curated commercial role library specifically pre-integrated for CrewAI and LangGraph with versioned YAML/JSON exports",
+    "No two-sided marketplace where creators sell tested agent personas and buyers rate/review runtime performance",
+    "No outcome-based or per-task pricing for individual persona templates; current market is mostly one-time downloads",
+    "No vertical-specific certified role packs for regulated industries (healthcare, legal, finance) with compliance guardrails",
+    "No no-code persona studio that lets non-developers customize roles and export to multiple frameworks",
+    "No unified library combining role definitions, prompt engineering, and agent observability in one subscription"
+  ],
+  "willingness_to_pay": {
+    "indie_developers_and_hobbyists": "$0-$20 one-time or $5-$15/mo for convenience and ready-made roles",
+    "small_ai_teams_and_freelancers": "$29-$99/mo for curated, updated role packs and framework integrations",
+    "agencies_and_consultancies": "$200-$500 per custom role or $1,000-$5,000 per project-specific role pack",
+    "enterprise_buyers": "$15,000-$60,000/yr for vertical-specific, compliant, supported role libraries"
+  },
+  "competitive_risk": "Open-source frameworks (CrewAI, LangGraph) and free GitHub persona libraries commoditize basic roles; incumbents like LangChain and Oracle can add native template marketplaces; indie Gumroad sellers drive a race-to-the-bottom on one-time pricing; buyers increasingly expect base personas to be free, so differentiation must come from framework-specific integration, updates, compliance, and a creator marketplace.",
+  "recommended_architecture": "Freemium + Tiered SaaS + Marketplace Commission",
+  "recommended_free_tier": true,
+  "recommended_tiers": [
+    {
+      "name": "Free",
+      "price_usd": "$0",
+      "contents": "25-50 core open-source agent roles, basic search, community contributions, MIT license, exports for CrewAI and LangGraph",
+      "target": "Indie developers, learners, open-source contributors",
+      "rationale": "Matches expectation that base roles are free; drives adoption, SEO, and community contributions"
+    },
+    {
+      "name": "Pro",
+      "price_usd": "$29/user/month or $290/year",
+      "contents": "250+ curated roles, versioned role packs, prompt optimizer, private collections, API access, monthly new releases",
+      "target": "Small AI teams, freelancers, and bootstrapped startups",
+      "rationale": "Price anchors below LangSmith per-seat but above Gumroad one-time; recurring value from updates and curation"
+    },
+    {
+      "name": "Team",
+      "price_usd": "$99/user/month or $990/year (minimum $299/month for up to 5 seats)",
+      "contents": "Team workspace, no-code role customization studio, CI/CD testing, usage analytics, priority Slack support",
+      "target": "SMBs, agencies, and product teams",
+      "rationale": "Flat/minimum pricing reduces seat friction while capturing higher value from collaborative production use"
+    },
+    {
+      "name": "Enterprise",
+      "price_usd": "Custom: $15,000-$60,000/year",
+      "contents": "Vertical-specific role packs, compliance filters, SSO, audit logs, SLA, dedicated support, custom role development",
+      "target": "Regulated enterprises and large tech teams",
+      "rationale": "High ACV justified by compliance, customization, and support; mirrors Oracle/enterprise marketplace pricing"
+    }
+  ],
+  "go_to_market": [
+    "Launch a public GitHub repo with 20-30 ready-to-use CrewAI and LangGraph role YAMLs and a clear Pro upgrade path",
+    "Publish framework-specific install commands and example projects for CrewAI and LangGraph to capture framework-search traffic",
+    "List paid role packs on Gumroad and PromptBase at $9-$29 price points for indie discovery",
+    "Build a Discord/community for role contributors and run a 'role of the week' showcase",
+    "Partner with AI consultancies to co-develop vertical enterprise packs and generate case studies",
+    "Launch on Product Hunt with a 'free persona library + Pro marketplace' positioning",
+    "Create SEO content targeting 'CrewAI roles', 'LangGraph agent personas', and 'AI agent persona template'"
+  ],
+  "key_metrics": {
+    "monthly_active_users": "10,000 MAU within 6 months",
+    "free_to_paid_conversion": "3-5% within 12 months",
+    "average_revenue_per_user_pro": "$29-$35/month",
+    "average_revenue_per_account_team": "$250-$500/month",
+    "marketplace_gmv": "$50,000/month within 12 months",
+    "monthly_retention": "80%+ for paid tiers",
+    "enterprise_qualified_opportunities": "10 per quarter"
+  },
+  "first_action": "Create a minimal GitHub repository with 20-30 production-ready agent role definitions for CrewAI and LangGraph, publish a landing page with a Pro tier waitlist, and share it on Hacker News, Reddit r/LocalLLaMA, and AI agent Discord servers to validate demand before building billing or marketplace features."
+}

@@ -1,0 +1,60 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Agent Role Definition",
+  "description": "Framework-agnostic schema for agent role definitions",
+  "type": "object",
+  "required": ["id", "name", "category", "description", "responsibilities", "expertise"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique snake_case identifier",
+      "pattern": "^[a-z][a-z0-9_]*$"
+    },
+    "name": {
+      "type": "string",
+      "description": "Human-readable role name"
+    },
+    "category": {
+      "type": "string",
+      "description": "Category slug (e.g., risk_management)"
+    },
+    "domain_tags": {
+      "type": "array",
+      "description": "Domain keywords",
+      "items": {
+        "type": "string"
+      },
+      "default": []
+    },
+    "description": {
+      "type": "string",
+      "description": "Role description",
+      "minLength": 50
+    },
+    "responsibilities": {
+      "type": "array",
+      "description": "List of responsibilities",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "expertise": {
+      "type": "array",
+      "description": "Areas of expertise",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "recommended_tools": {
+      "type": "array",
+      "description": "Optional tool recommendations",
+      "items": {
+        "type": "string"
+      },
+      "default": []
+    }
+  },
+  "additionalProperties": false
+}

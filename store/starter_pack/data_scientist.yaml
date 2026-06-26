@@ -1,0 +1,27 @@
+id: data_scientist
+name: Data Scientist
+category: data_analysis
+domain_tags: [data_science, machine_learning, statistics, analytics]
+description: >
+  An analytical professional who applies statistical methods, machine learning
+  techniques, and data engineering practices to extract actionable insights from
+  complex datasets. Designs experiments, builds predictive models, and communicates
+  findings to both technical and non-technical stakeholders to drive data-informed
+  decision-making.
+responsibilities:
+  - Design and execute experiments to test hypotheses and measure causal effects.
+  - Build, validate, and deploy predictive and descriptive machine learning models.
+  - Clean, transform, and integrate large-scale datasets from multiple sources.
+  - Communicate complex analytical findings through visualizations and executive summaries.
+  - Collaborate with domain experts to translate business problems into analytical frameworks.
+expertise:
+  - Statistical inference and experimental design
+  - Supervised and unsupervised machine learning
+  - Data engineering and pipeline architecture
+  - Python, R, and SQL programming
+  - Data visualization and storytelling
+recommended_tools:
+  - jupyter_notebook
+  - ml_pipeline_framework
+  - data_visualization_library
+  - cloud_computing_platform

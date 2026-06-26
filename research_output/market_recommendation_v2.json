@@ -1,0 +1,122 @@
+{
+  "comparable_products": [
+    {
+      "name": "PromptBase",
+      "type": "Prompt marketplace",
+      "price_range": "$3-$15/prompt",
+      "model": "Individual sales",
+      "url": "promptbase.com"
+    },
+    {
+      "name": "FlowGPT",
+      "type": "Prompt marketplace",
+      "price_range": "Free + Premium",
+      "model": "Freemium",
+      "url": "flowgpt.com"
+    },
+    {
+      "name": "CrewAI",
+      "type": "Multi-agent framework",
+      "price_range": "$0 self-hosted; cloud ~$29-$299/mo",
+      "model": "Open-core + SaaS",
+      "url": "crewai.com"
+    },
+    {
+      "name": "LangChain Templates",
+      "type": "Framework templates",
+      "price_range": "Free (open source)",
+      "model": "Community + Enterprise support",
+      "url": "langchain.com/templates"
+    },
+    {
+      "name": "Persona 500",
+      "type": "Agent template library",
+      "price_range": "$19-$99 one-time or $29-$79/mo",
+      "model": "Template marketplace",
+      "url": "persona500.com"
+    }
+  ],
+  "pricing_signals": {
+    "individual_prompts": "$3-$15",
+    "agent_personas": "$5-$50",
+    "template_bundles": "$29-$99",
+    "enterprise_frameworks": "$499-$2,000/year"
+  },
+  "market_gaps": [
+    "No dedicated agent role library exists as a product category",
+    "Framework-agnostic roles are unheard of (everyone is framework-specific)",
+    "Validated, tested roles with overlays do not exist commercially",
+    "No product combines YAML roles + multi-framework adapters"
+  ],
+  "willingness_to_pay": {
+    "developers_individual": "Low ($0-$19). They will build their own.",
+    "consultants_agencies": "Medium ($49-$199). Need quick deployment.",
+    "enterprise_teams": "High ($499-$999). Need governance, compliance, support.",
+    "startups": "Low-Medium ($0-$49). Price-sensitive but time-starved."
+  },
+  "competitive_risk": "Low. No direct competitor today. Window is 6-12 months before copycats emerge.",
+  "recommended_architecture": "Freemium + Tiered Bundles + Enterprise",
+  "recommended_free_tier": true,
+  "recommended_tiers": [
+    {
+      "name": "Starter Pack",
+      "price_usd": 0,
+      "contents": [
+        "3 roles + overlays"
+      ],
+      "target": "Developers evaluating",
+      "rationale": "Remove friction, prove value"
+    },
+    {
+      "name": "Domain Pack",
+      "price_usd": 49,
+      "contents": [
+        "All roles in 1 domain + overlays"
+      ],
+      "target": "Specialists",
+      "rationale": "Job-oriented purchase"
+    },
+    {
+      "name": "Professional Pack",
+      "price_usd": 99,
+      "contents": [
+        "3 domains + graph templates + priority support"
+      ],
+      "target": "Consultants and agencies",
+      "rationale": "Volume discount, feels like a tool"
+    },
+    {
+      "name": "Complete Bundle",
+      "price_usd": 199,
+      "contents": [
+        "All 31 roles + 12mo updates + Discord"
+      ],
+      "target": "Power users",
+      "rationale": "Anchor at $589, $199 is 66% off"
+    },
+    {
+      "name": "Enterprise License",
+      "price_usd": 499,
+      "contents": [
+        "Everything + redistribution rights + lifetime updates + support"
+      ],
+      "target": "Commercial teams",
+      "rationale": "Legal protection + custom work"
+    }
+  ],
+  "go_to_market": [
+    "GitHub repo (free starter pack) -> README badge -> Gumroad store",
+    "LinkedIn / Twitter content marketing: 'Build a compliance audit crew in 5 minutes'",
+    "Hacker News / Reddit Show HN with live demo",
+    "Partnerships: Framework integrations (CrewAI, LangChain, LangGraph) -> affiliate program",
+    "SEO: Target 'CrewAI audit agent', 'LangGraph role library', 'AI agent personas'"
+  ],
+  "key_metrics": {
+    "visitor_to_signup": "15%",
+    "free_to_paid": "8%",
+    "arpu": "$120",
+    "customer_acquisition_cost": "$25",
+    "lifetime_value": "$340"
+  },
+  "first_action": "Launch GitHub repo with 3 free starter roles + Complete Bundle on Gumroad at $199. Test demand with one SKU before building full tiered store."
+}
