@@ -52,10 +52,10 @@ Replace these in all files:
 |---|---|---|
 | README.md | `majidrajpar` | Your GitHub username |
 | README.md | `majidrajpar@gmail.com` | Your real email |
-| README.md | `your-website.com` | Your website |
+| README.md | `majidrajpar.github.io/portfolio_my/roleforge/` | Your website |
 | WEBSITE_DESCRIPTION.md | `majidrajpar` | Your GitHub username |
 | WEBSITE_DESCRIPTION.md | `majidrajpar@gmail.com` | Your real email |
-| WEBSITE_DESCRIPTION.md | `your-website.com` | Your website |
+| WEBSITE_DESCRIPTION.md | `majidrajpar.github.io/portfolio_my/roleforge/` | Your website |
 | COMMERCIAL_LICENSE.md | `majidrajpar@gmail.com` | Your real email |
 | COMMERCIAL_LICENSE.md | `gumroad.com/your-store` | Your Gumroad store |
 | store/**/*.md | `gumroad.com/your-store` | Your Gumroad store |
@@ -67,7 +67,7 @@ Replace these in all files:
 # Run from repo root
 sed -i 's/majidrajpar/YOUR_ACTUAL_USERNAME/g' README.md WEBSITE_DESCRIPTION.md COMMERCIAL_LICENSE.md
 sed -i 's/majidrajpar@gmail.com/YOUR_ACTUAL_EMAIL/g' README.md WEBSITE_DESCRIPTION.md COMMERCIAL_LICENSE.md store/**/*.md
-sed -i 's/your-website.com/YOUR_ACTUAL_WEBSITE/g' README.md WEBSITE_DESCRIPTION.md
+sed -i 's/majidrajpar.github.io/portfolio_my/roleforge//YOUR_ACTUAL_WEBSITE/g' README.md WEBSITE_DESCRIPTION.md
 sed -i 's|gumroad.com/your-store|gumroad.com/YOUR_ACTUAL_STORE|g' store/**/*.md COMMERCIAL_LICENSE.md
 ```
 
