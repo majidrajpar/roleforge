@@ -31,7 +31,7 @@ cd roleforge
 uv sync
 
 # Validate all roles
-uv run python validate_roles.py
+uv run python tools/validate_roles.py
 
 # Run tests
 uv run pytest tests/
@@ -103,7 +103,7 @@ Want to save time? Buy validated role packs (one-time purchase, lifetime access)
 | **Complete Bundle** ⭐ | **$199** | All 31 roles + 12mo updates + Discord |
 | **Enterprise License** | **$499** | Everything + commercial rights + 5 custom roles + dedicated support |
 
-**Why this pricing?** Market research shows prompt marketplaces sell at $3-$15 (hobbyist territory). RoleForge is a professional tool, priced between commodity prompts and enterprise frameworks. See [research_output/market_research_report.md](research_output/market_research_report.md) for the full analysis.
+**Why this pricing?** Market research shows prompt marketplaces sell at $3-$15 (hobbyist territory). RoleForge is a professional tool, priced between commodity prompts and enterprise frameworks. See [archive/research/market_research_report.md](archive/research/market_research_report.md) for the full analysis.
 
 **The rule:** Build with it for free. Extract commercial value from it? License it.
 

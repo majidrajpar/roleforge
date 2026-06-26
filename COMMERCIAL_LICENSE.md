@@ -109,7 +109,7 @@ A: Free until you hit $1M ARR. At that point, an Enterprise License applies.
 A: You already have it. The entire repo is public. You're paying for convenience, support, and legal rights.
 
 **Q: Why not just sell individual roles?**  
-A: Market research shows individual prompts sell for $3-$15 and attract hobbyists. Bundles at $49-$199 attract professionals with real budgets. See [research_output/market_research_report.md](research_output/market_research_report.md) for full analysis.
+A: Market research shows individual prompts sell for $3-$15 and attract hobbyists. Bundles at $49-$199 attract professionals with real budgets. See [archive/research/market_research_report.md](archive/research/market_research_report.md) for full analysis.
 
 ---
 

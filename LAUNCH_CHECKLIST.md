@@ -122,7 +122,7 @@ Upload `audit_domain_pack.zip` to Gumroad as the Domain Pack product.
 
 ```bash
 # Validate everything is ready
-uv run python validate_roles.py
+uv run python tools/validate_roles.py
 uv run pytest tests/
 
 # Commit link updates

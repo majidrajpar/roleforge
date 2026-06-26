@@ -5,7 +5,7 @@
 | Task | Command |
 |---|---|
 | Run all tests | `uv run pytest tests/` |
-| Validate roles library | `uv run python validate_roles.py` |
+| Validate roles library | `uv run python tools/validate_roles.py` |
 | Run usage demo | `uv run python examples/usage.py` |
 | Run role selection demo | `uv run python examples/role_selection_demo.py` |
 | Start Jupyter | `uv run jupyter notebook examples/` |
@@ -34,7 +34,7 @@ This is a **framework-agnostic YAML core** with tailored Python adapters:
 
 1. Create YAML in `roles/{category}/{role_id}.yaml` following `schemas/role.schema.json`.
 2. Optionally create overlays in `overlays/crewai/{role_id}.yaml` and/or `overlays/langgraph/{role_id}.yaml`.
-3. Run `uv run python validate_roles.py` to verify.
+3. Run `uv run python tools/validate_roles.py` to verify.
 4. Add unit tests if needed (see `tests/test_core.py` for patterns).
 
 ## Adapter Contract
@@ -73,7 +73,7 @@ All examples add `src/` to `sys.path` at runtime. Notebooks require `sys.path.in
 ## Validation
 
 - **Deterministic:** JSON Schema (`schemas/role.schema.json`) + Pydantic validators (`src/validators.py`) check description length, duplicate responsibilities, cross-role overlap.
-- **Manual:** `validate_roles.py` reports role counts, category breakdown, and overlay coverage.
+- **Manual:** `tools/validate_roles.py` reports role counts, category breakdown, and overlay coverage.
 - **Tests:** `tests/test_core.py` (32 tests) covers models, loaders, registry, adapters, graph templates. `tests/test_role_selector.py` (11 tests) covers selection logic.
 
 ## API Key

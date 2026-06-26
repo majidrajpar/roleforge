@@ -30,7 +30,7 @@ jobs:
       run: uv sync --all-extras
 
     - name: Validate roles
-      run: uv run python validate_roles.py
+      run: uv run python tools/validate_roles.py
 
     - name: Run tests
       run: uv run pytest tests/ -v --tb=short

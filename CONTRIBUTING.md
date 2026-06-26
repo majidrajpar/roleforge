@@ -16,7 +16,7 @@ Thank you for considering contributing to RoleForge! This document outlines the 
 2. **Create a branch** (`git checkout -b feature/amazing-feature`)
 3. **Make your changes**
 4. **Run tests** (`uv run pytest tests/`)
-5. **Validate roles** (`uv run python validate_roles.py`)
+5. **Validate roles** (`uv run python tools/validate_roles.py`)
 6. **Commit** (`git commit -m 'Add amazing feature'`)
 7. **Push** (`git push origin feature/amazing-feature`)
 8. **Open a Pull Request**
@@ -25,7 +25,7 @@ Thank you for considering contributing to RoleForge! This document outlines the 
 
 1. Create a YAML file in `roles/{category}/` following `schemas/role.schema.json`
 2. Optionally create overlays in `overlays/crewai/` and/or `overlays/langgraph/`
-3. Run `uv run python validate_roles.py` to verify
+3. Run `uv run python tools/validate_roles.py` to verify
 4. Add tests in `tests/test_core.py` if the role introduces new patterns
 5. Update `README.md` if the role count changes
 

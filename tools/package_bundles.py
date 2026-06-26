@@ -8,7 +8,7 @@ from pathlib import Path
 import zipfile
 import shutil
 
-REPO_ROOT = Path(__file__).parent
+REPO_ROOT = Path(__file__).parent.parent
 OUTPUT_DIR = REPO_ROOT / "gumroad_bundles"
 ROLES_DIR = REPO_ROOT / "roles"
 OVERLAYS_DIR = REPO_ROOT / "overlays"

@@ -53,7 +53,7 @@ Personal projects, education, research, internal business, and startups under $1
 | **Complete Bundle** ⭐ | **$199** | All 31 roles + 12mo updates + Discord community |
 | **Enterprise License** | **$499** | Everything + commercial rights + 5 custom roles + dedicated support |
 
-**Why this pricing?** Market research shows prompt marketplaces price at $3-$15 (hobbyist territory). RoleForge is a professional tool, positioned between commodity prompts and enterprise frameworks. See our [market research analysis](https://github.com/majidrajpar/roleforge/blob/main/research_output/market_research_report.md) for the full data.
+**Why this pricing?** Market research shows prompt marketplaces price at $3-$15 (hobbyist territory). RoleForge is a professional tool, positioned between commodity prompts and enterprise frameworks. See our [market research analysis](https://github.com/majidrajpar/roleforge/blob/main/archive/research/market_research_report.md) for the full data.
 
 **The rule:** Build with it for free. Extract commercial value from it? License it.
 
@@ -72,7 +72,7 @@ cd roleforge
 uv sync
 
 # Validate all 31 roles
-uv run python validate_roles.py
+uv run python tools/validate_roles.py
 
 # Run tests
 uv run pytest tests/
@@ -101,7 +101,7 @@ RoleForge is maintained by [Your Name / Company](https://majidrajpar.github.io/p
 - [GitHub Repository](https://github.com/majidrajpar/roleforge)
 - [Contributing Guide](https://github.com/majidrajpar/roleforge/blob/main/CONTRIBUTING.md)
 - [Changelog](https://github.com/majidrajpar/roleforge/blob/main/CHANGELOG.md)
-- [Market Research Report](https://github.com/majidrajpar/roleforge/blob/main/research_output/market_research_report.md)
+- [Market Research Report](https://github.com/majidrajpar/roleforge/blob/main/archive/research/market_research_report.md)
 - [Contact for Licensing](mailto:majidrajpar@gmail.com)
 
 ---
