@@ -1,48 +1,54 @@
 # Show HN: RoleForge — 31 production-grade agent roles for AI teams
 
-**TL;DR:** Stop writing ad-hoc system prompts. Start deploying expert agents. Free starter pack + paid domain bundles.
+**TL;DR:** Stop writing ad-hoc system prompts. Start deploying expert agents. Free starter pack included.
 
 ## The Problem
 
 Most AI agent projects collapse because the prompts are thin. You can't build a reliable Credit Risk Analyst or Forensic Auditor with "You are a helpful assistant."
 
+What you need are **deep, validated personas** — not fragile prompt engineering.
+
 ## What RoleForge Gives You
 
-**Free (always):**
-- 3 starter roles: Data Scientist, Narrative Architect, Ethics Advisor
-- Framework adapters for CrewAI, LangChain, LangGraph
-- Role registry with keyword + LLM-powered search
-- 9 pre-built LangGraph graph templates
+- **31 production-grade agent roles** across 7 domains: Audit, Risk, Governance, Philosophy, Creative Writing, Book Writing, Data Analysis
+- **Framework adapters** for CrewAI, LangChain, and LangGraph — each role has specific overlays
+- **Role registry** with keyword + LLM-powered search
+- **9 pre-built LangGraph graph templates**: supervisor-worker, debate, map-reduce, human-in-the-loop, and more
+- **43 tests + JSON Schema validation** — these aren't toy prompts, they're production-ready
 
-**Paid (one-time, $49-$499):**
-- Domain packs: Audit (6 roles), Risk (5), Governance (4), Philosophy (4), Creative Writing (4), Book Writing (4), Data Analysis (5)
-- Complete Bundle: all 31 roles for $199
-- Enterprise: redistribution rights for $499
+## Free Starter Pack
 
-## Why One-Time?
+- Data Scientist
+- Narrative Architect
+- Ethics Advisor
 
-We hate subscriptions. You buy it, you own it. Updates included for 12 months. After that, what you have still works.
+Plus the full engine. Build something real before deciding if you need more.
 
 ## The Tech
 
-- YAML-based role definitions (framework-agnostic)
+- YAML-based role definitions (framework-agnostic core)
 - Pydantic validation + JSON Schema
-- 43 tests, clean architecture
 - Python >= 3.11, uv for dependency management
+- Clean architecture, no magic
 
 ## Market Validation
 
-We built a LangGraph agent that searched the web for comparable products. Result: **no curated agent role library exists**. Closest analogues are prompt marketplaces ($3-$15/prompt) that lack validation, framework integration, and test coverage.
+We built a LangGraph agent that searched the web for comparable products. Result: **no curated agent role library exists**. Closest analogues are prompt marketplaces selling $3 snippets that lack validation, framework integration, and test coverage.
 
-First-mover advantage with real pricing power.
+First-mover advantage in a wide-open space.
+
+## What's Next
+
+We're building more domains (Healthcare? Legal? Security?) and adding framework integrations based on what the community actually needs.
 
 **Repo:** https://github.com/majidrajpar/roleforge
-**Store:** Coming soon to Gumroad
+
+**Pricing and bundles:** https://your-website.com/roleforge
 
 ## Questions I'd Love Answered
 
-1. What domains are missing? (Healthcare? Legal? Security?)
-2. Would you pay $199 for 31 validated roles, or is that too high/low?
-3. Framework priority: CrewAI vs LangGraph vs AutoGen?
+1. What domains are missing?
+2. Framework priority: CrewAI vs LangGraph vs AutoGen?
+3. What's the biggest pain point in your current agent setup?
 
 Let me know what you think.

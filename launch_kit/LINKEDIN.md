@@ -22,7 +22,7 @@ What you need are **deep, validated personas** — not ad-hoc prompt engineering
 - Book Writing (4 roles)
 - Data Analysis (5 roles)
 
-Each role comes with:
+Each role includes:
 - CrewAI overlays (goals, backstories)
 - LangGraph overlays (node types)
 - LangChain chain adapters
@@ -30,21 +30,12 @@ Each role comes with:
 
 ---
 
-**The business model:**
+**The free starter pack** gives you 3 roles (Data Scientist, Narrative Architect, Ethics Advisor) plus the full engine. Build something real before deciding if you need more.
 
-- **Free:** 3 starter roles + full engine
-- **$49:** Domain pack (e.g., all Audit roles)
-- **$199:** Complete Bundle (all 31 roles)
-- **$499:** Enterprise (redistribution rights)
+**Why charge for the rest?**
 
-One-time purchase. Lifetime access. No subscriptions.
-
----
-
-**Why charge at all?**
-
-1. Building 31 validated roles takes weeks. Buying them takes minutes.
-2. Revenue funds maintenance, new roles, and framework updates.
+1. Building 31 validated roles takes weeks. Using them takes minutes.
+2. Revenue funds maintenance, new domains, and framework updates.
 3. Free products become abandonware. Paid products get maintained.
 
 ---
@@ -58,7 +49,8 @@ This is a first-mover advantage in a wide-open space.
 ---
 
 **Repo:** https://github.com/majidrajpar/roleforge
+**Pricing and bundles:** https://your-website.com/roleforge
 
-If you're building agent teams, I'd love your feedback. What domains are missing? What's the right price point?
+If you're building agent teams, I'd love your feedback. What domains are missing?
 
 #AI #MachineLearning #CrewAI #LangChain #LangGraph #AgentFramework #PromptEngineering #OpenSource
