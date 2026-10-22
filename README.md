@@ -1,5 +1,7 @@
 # RoleForge
 
+[![CI](https://github.com/majidrajpar/roleforge/actions/workflows/ci.yml/badge.svg)](https://github.com/majidrajpar/roleforge/actions/workflows/ci.yml)
+
 **31 production-grade agent roles. One YAML library. Three framework adapters. Zero prompt engineering.**
 
 RoleForge is the fastest way to build coherent AI agent teams. Stop writing ad-hoc system prompts. Start deploying expert personas that work across CrewAI, LangChain, and LangGraph.
@@ -61,11 +63,11 @@ See [examples/](examples/) for CrewAI, LangChain, and LangGraph integrations.
 |---|---|---|
 | **Audit** | 6 | Internal audit, IT audit, compliance, forensic investigation |
 | **Risk** | 5 | Credit, operational, enterprise, scenario modeling |
-| **Governance** | 3 | Board liaison, governance analysis, ethics |
-| **Philosophy** | 4 | Epistemology, ethics, metaphysics, logic |
+| **Governance** | 4 | Board liaison, governance analysis, ethics, data governance |
+| **Philosophy** | 4 | Epistemology, ethics culture, logic, history of philosophy |
 | **Creative Writing** | 4 | Narrative architect, character developer, world builder, dialogue |
 | **Book Writing** | 3 | Developmental editor, copy editor, project manager |
-| **Data Analysis** | 5 | Data scientist, storyteller, governance, ML engineer, visualization |
+| **Data Analysis** | 5 | Data scientist, storyteller, ML engineer, visualization, statistical review |
 
 ---
 
@@ -89,19 +91,18 @@ roleforge/
 
 ---
 
-## Pricing: Free to Build, Pay for Convenience
+## Pricing: Free to Build, Subscribe for Convenience
 
 The **core engine is free** under the Elastic License 2.0. Use it for personal projects, education, research, internal business, and even startups under $1M ARR.
 
-Want to save time? Buy validated role packs (one-time purchase, lifetime access):
+Want to save time? Subscribe to validated role packs (billed monthly, cancel anytime):
 
 | Tier | Price | What You Get |
 |---|---|---|
 | **Starter Pack** | **Free** | 3 roles + overlays. Build something real before paying. |
-| **Domain Pack** | **$49** | All roles in one domain (e.g., Audit: 6 roles) + overlays |
-| **Professional Pack** | **$99** | 3 domains + graph templates + priority support |
-| **Complete Bundle** ⭐ | **$199** | All 31 roles + 12mo updates + Discord |
-| **Enterprise License** | **$499** | Everything + commercial rights + 5 custom roles + dedicated support |
+| **Domain Pack** | **$19–$34/mo** | All roles in one domain (e.g., Audit: 6 roles) + overlays |
+| **Complete Bundle** ⭐ | **$79/mo** | All 31 roles + continuous updates + Discord |
+| **Enterprise License** | **$149/mo** | Everything + commercial rights + 5 custom roles + dedicated support |
 
 **Why this pricing?** Market research shows prompt marketplaces sell at $3-$15 (hobbyist territory). RoleForge is a professional tool, priced between commodity prompts and enterprise frameworks. See [archive/research/market_research_report.md](archive/research/market_research_report.md) for the full analysis.
 
@@ -125,4 +126,4 @@ We welcome contributions. See [CONTRIBUTING.md](CONTRIBUTING.md) for how to add 
 
 ---
 
-<sub>Built by [Your Name](https://majidrajpar.github.io/portfolio_my/roleforge/). Commercialization is a virtue.</sub>
+<sub>Built by [Majid Mumtaz](https://majidrajpar.github.io/portfolio_my/roleforge/). Commercialization is a virtue.</sub>

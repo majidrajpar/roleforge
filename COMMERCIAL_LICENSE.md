@@ -1,5 +1,7 @@
 # RoleForge Commercial Licensing
 
+Copyright (c) 2026 Majid Mumtaz
+
 > **TL;DR:** RoleForge Core is free for personal, education, research, and internal business use. Startups under $1M ARR are also free. Want to sell it as a service, embed it commercially, or need custom roles? That's what we charge for.
 
 ---
@@ -29,36 +31,32 @@ The Elastic License 2.0 handles the legal guardrails. This document handles the 
 
 ## Paid Products (Optional Upgrades)
 
-These are **convenience purchases**, not legal requirements. You can build your own roles using the free engine. Buying saves time and funds ongoing development.
+These are **convenience subscriptions**, not legal requirements. You can build your own roles using the free engine. Subscribing saves time and funds ongoing development.
 
-### Domain Pack — $49
+### Domain Pack — $19–$34/mo
 - All roles in **one domain** of your choice (e.g., Audit: 6 roles)
 - CrewAI + LangChain + LangGraph overlays
 - Usage examples
+- **Seat:** Single user
 - **Target:** Specialists who need depth in one area
-- **Psychology:** Job-oriented purchase. "I need audit roles."
+- **Psychology:** Job-oriented subscription. "I need audit roles."
 
-### Professional Pack — $99
-- All roles in **three domains** of your choice
-- All 9 pre-built LangGraph graph templates
-- Priority GitHub issue support
-- **Target:** Consultants and agencies building for clients
-- **Psychology:** Volume discount. Feels like a tool, not a toy.
-
-### Complete Bundle — $199 ⭐ BEST VALUE
+### Complete Bundle — $79/mo ⭐ BEST VALUE
 - All **31 roles** + all overlays
 - All 9 graph templates
-- 12 months of updates
+- Continuous updates (new roles, framework adapters)
 - Private Discord community access
+- **Seat:** Single user
 - **Target:** Power users, agencies, fractional CTOs
-- **Psychology:** Anchor at $589 (31×$19). $199 is 66% off.
+- **Psychology:** Anchor at $279/mo (31×$9). $79/mo is 72% off.
 
-### Enterprise License — $499 one-time
+### Enterprise License — $149/mo
 - Everything in Complete Bundle
 - **Commercial redistribution rights** (embed in products, SaaS)
 - Custom role development (up to 5 roles)
 - Dedicated support channel (24-hour response)
-- Lifetime updates
+- Continuous updates
+- **Seats:** Up to 5 users
 - **Target:** Teams building agent platforms commercially
 - **Psychology:** Legal protection + custom work = no-brainer for enterprises.
 
@@ -66,7 +64,7 @@ These are **convenience purchases**, not legal requirements. You can build your 
 
 ## Why Pay?
 
-1. **Time:** Buying validated roles saves days of prompt engineering.
+1. **Time:** Subscribing to validated roles saves days of prompt engineering.
 2. **Support:** Priority response on GitHub issues and Discord.
 3. **Early Access:** New roles and framework adapters before public release.
 4. **Custom Development:** We build domain-specific roles for your industry.
@@ -80,11 +78,10 @@ These are **convenience purchases**, not legal requirements. You can build your 
 | Method | Contact |
 |---|---|
 | Email | [majidrajpar@gmail.com](mailto:majidrajpar@gmail.com) |
-| Gumroad | [gumroad.com/your-store](https://gumroad.com/your-store) |
+| Store & Catalog | [majidrajpar.github.io/portfolio_my/roleforge](https://majidrajpar.github.io/portfolio_my/roleforge/) |
 | GitHub Sponsors | [github.com/sponsors/majidrajpar](https://github.com/sponsors/majidrajpar) |
-| Calendly | [calendly.com/your-link](https://calendly.com/your-link) |
 
-For enterprise purchases (> $10,000), we provide formal invoices and contracts.
+For enterprise purchases (>$10,000 annual contracts), we provide formal invoices and contracts.
 
 ---
 
@@ -108,8 +105,14 @@ A: Free until you hit $1M ARR. At that point, an Enterprise License applies.
 **Q: Do I get the source code if I pay?**  
 A: You already have it. The entire repo is public. You're paying for convenience, support, and legal rights.
 
+**Q: Can I cancel my subscription?**  
+A: Yes. All paid tiers are month-to-month — cancel anytime. The free core and starter roles remain yours forever. If you cancel a paid tier, you retain what you already downloaded but stop receiving new roles and updates.
+
+**Q: Is the subscription per-seat or unlimited?**  
+A: Domain Pack and Complete Bundle are single-seat (one user). Enterprise License includes up to 5 seats — contact us for additional seats.
+
 **Q: Why not just sell individual roles?**  
-A: Market research shows individual prompts sell for $3-$15 and attract hobbyists. Bundles at $49-$199 attract professionals with real budgets. See [archive/research/market_research_report.md](archive/research/market_research_report.md) for full analysis.
+A: Market research shows individual prompts sell for $3-$15 and attract hobbyists. Subscription bundles at $19-$79/mo attract professionals with real budgets. See [archive/research/market_research_report.md](archive/research/market_research_report.md) for full analysis.
 
 ---
 
@@ -119,5 +122,6 @@ A: Market research shows individual prompts sell for $3-$15 and attract hobbyist
 - **Role Packs:** Proprietary content, sold as convenience products
 - **Commercial Rights:** Governed by this document
 - **Disputes:** Governing law is the jurisdiction of the licensor
+- **Copyright:** Copyright (c) 2026 Majid Mumtaz
 
 *Last updated: June 2026*

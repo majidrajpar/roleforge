@@ -4,6 +4,7 @@ version = "0.1.0"
 description = "Framework-agnostic YAML library for agent roles with CrewAI, LangChain, and LangGraph adapters"
 readme = "README.md"
 license = {text = "Elastic License 2.0"}
+authors = [{name = "Majid Mumtaz", email = "majidrajpar@gmail.com"}]
 requires-python = ">=3.11"
 dependencies = [
     "crewai>=1.14.7",
