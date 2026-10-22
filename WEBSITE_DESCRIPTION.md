@@ -1,6 +1,6 @@
 ---
 title: "RoleForge - Production-Grade Agent Roles for AI Teams"
-description: "31 validated agent roles for CrewAI, LangChain, and LangGraph. Free starter pack. Professional bundles from $49. Enterprise licenses available."
+description: "31 validated agent roles for CrewAI, LangChain, and LangGraph. Free starter pack. Professional subscriptions from $19/mo. Enterprise licenses available."
 ---
 
 # RoleForge
@@ -21,11 +21,11 @@ Most agent teams collapse because the system prompts are thin. "You are a helpfu
 |---|---|---|
 | **Audit** | Lead Internal Auditor, IT Auditor, Compliance Auditor, Forensic Auditor, Audit Report Writer, BI Analyst | Part of bundles |
 | **Risk** | Credit Risk Analyst, Operational Risk Manager, Enterprise Risk Strategist, Market Risk Quant, Scenario Modeler | Part of bundles |
-| **Governance** | Board Liaison, Governance Analyst, Ethics Advisor | Part of bundles |
+| **Governance** | Board Liaison, Governance Analyst, Ethics Advisor, Data Governance Specialist | Part of bundles |
 | **Philosophy** | Epistemology Reviewer, Ethics Culture Advisor, History of Philosophy Scholar, Logic & Argumentation Analyst | Part of bundles |
 | **Creative Writing** | Narrative Architect, Character Developer, World Builder, Dialogue Specialist | Part of bundles |
 | **Book Writing** | Developmental Editor, Copy Editor & Proofreader, Book Project Manager | Part of bundles |
-| **Data Analysis** | Data Scientist, Data Storyteller, Data Governance Specialist, ML Engineer, Visualization Expert | Part of bundles |
+| **Data Analysis** | Data Scientist, Data Storyteller, ML Engineer, Visualization Expert, Statistical Reviewer | Part of bundles |
 
 ### The Engine (Free Forever)
 
@@ -44,16 +44,17 @@ Most agent teams collapse because the system prompts are thin. "You are a helpfu
 
 Personal projects, education, research, internal business, and startups under $1M ARR are all free.
 
-### Professional Bundles (One-Time Purchase)
+### Professional Subscriptions (Billed Monthly)
 
 | Tier | Price | What's Included |
 |---|---|---|
-| **Domain Pack** | **$49** | All roles in ONE domain + overlays + examples |
-| **Professional Pack** | **$99** | 3 domains + graph templates + priority support |
-| **Complete Bundle** ⭐ | **$199** | All 31 roles + 12mo updates + Discord community |
-| **Enterprise License** | **$499** | Everything + commercial rights + 5 custom roles + dedicated support |
+| **Domain Pack** | **$19–$34/mo** | All roles in ONE domain + overlays + examples |
+| **Complete Bundle** ⭐ | **$79/mo** | All 31 roles + continuous updates + Discord community |
+| **Enterprise License** | **$149/mo** | Everything + commercial rights + 5 custom roles + dedicated support |
 
 **Why this pricing?** Market research shows prompt marketplaces price at $3-$15 (hobbyist territory). RoleForge is a professional tool, positioned between commodity prompts and enterprise frameworks. See our [market research analysis](https://github.com/majidrajpar/roleforge/blob/main/archive/research/market_research_report.md) for the full data.
+
+**Subscription policy:** Cancel anytime — you keep files you've already downloaded but lose access to new roles and ongoing updates. Domain Pack and Complete Bundle are per-seat (one user); Enterprise License includes up to 5 seats. The free core and Starter Pack never expire.
 
 **The rule:** Build with it for free. Extract commercial value from it? License it.
 

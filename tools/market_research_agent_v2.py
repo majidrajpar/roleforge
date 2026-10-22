@@ -27,20 +27,26 @@ import requests
 # CONFIGURATION
 # =============================================================================
 
-API_KEY_PATH = r"C:\Users\sorat\Desktop\Coding\Dev_api\ollama_api_key.txt"
 OLLAMA_BASE_URL = "https://ollama.com/v1"
 OLLAMA_MODEL = "kimi-k2.7-code:cloud"
 
 
 def load_api_key() -> str:
-    """Load API key from file or environment."""
+    """Load API key from environment or local .env / key file."""
     key = os.getenv("OLLAMA_API_KEY")
-    if key:
+    if key and key.strip():
         return key.strip()
-    if os.path.exists(API_KEY_PATH):
-        with open(API_KEY_PATH, "r", encoding="utf-8") as f:
-            return f.readline().strip()
-    raise EnvironmentError("OLLAMA_API_KEY not found in env or file.")
+    for d in [Path.cwd(), Path(__file__).resolve().parent, Path(__file__).resolve().parent.parent]:
+        for fname in [".env", "ollama_api_key.txt"]:
+            fpath = d / fname
+            if fpath.is_file():
+                try:
+                    val = fpath.read_text(encoding="utf-8").strip()
+                    if val:
+                        return val
+                except Exception:
+                    pass
+    raise EnvironmentError("OLLAMA_API_KEY not found in environment or local files (.env / ollama_api_key.txt).")
 
 
 def llm_chat(system_prompt: str, user_prompt: str, api_key: str) -> str:

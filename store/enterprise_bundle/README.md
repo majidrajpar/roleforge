@@ -1,6 +1,6 @@
 # RoleForge Enterprise License
 
-**$499 one-time**
+**$149/mo — cancel anytime**
 
 ## What's Included
 
@@ -9,7 +9,7 @@ Everything in the [Complete Bundle](complete_bundle/), plus:
 - **Commercial redistribution rights** — embed roles in your SaaS, product, or service
 - **Custom role development** (up to 5 roles built for your domain)
 - **Dedicated support channel** (24-hour response on business days)
-- **Lifetime updates** — all future roles and framework adapters
+- **Continuous updates** — all future roles and framework adapters
 - **Private onboarding call** — 30-minute setup consultation
 
 ## Perfect For

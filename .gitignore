@@ -86,3 +86,7 @@ uv.lock
 # The store/ READMEs are public. Actual premium role bundles
 # are packaged and distributed via Gumroad.
 # See store/README.md for pricing.
+
+# Draft response files
+response_to_jamie*.md
+axelrod_simulation.py

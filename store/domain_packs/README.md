@@ -1,18 +1,18 @@
 # RoleForge Domain Packs
 
-**One-time purchase. Lifetime access.**
+**Monthly subscription. Cancel anytime.**
 
 Choose the domain that matches your needs:
 
 | Domain Pack | Price | Roles | Best For |
 |---|---|---|---|
-| **Audit Pack** | $49 | 6 roles | Internal auditors, compliance teams |
-| **Risk Pack** | $49 | 5 roles | Risk managers, financial analysts |
-| **Governance Pack** | $49 | 4 roles | Board secretaries, governance officers |
-| **Philosophy Pack** | $59 | 4 roles | Ethics researchers, policy advisors |
-| **Creative Writing Pack** | $79 | 4 roles | Fiction writers, game designers |
-| **Book Writing Pack** | $49 | 4 roles | Authors, editors, publishers |
-| **Data Analysis Pack** | $69 | 5 roles | Data scientists, BI analysts |
+| **Audit Pack** | $34/mo | 6 roles | Internal auditors, compliance teams |
+| **Risk Pack** | $29/mo | 5 roles | Risk managers, financial analysts |
+| **Governance Pack** | $19/mo | 4 roles | Board secretaries, governance officers |
+| **Philosophy Pack** | $24/mo | 4 roles | Ethics researchers, policy advisors |
+| **Creative Writing Pack** | $34/mo | 4 roles | Fiction writers, game designers |
+| **Book Writing Pack** | $19/mo | 3 roles | Authors, editors, publishers |
+| **Data Analysis Pack** | $29/mo | 5 roles | Data scientists, ML engineers |
 
 Each pack includes:
 - All roles in the domain (YAML definitions)
@@ -30,4 +30,4 @@ Domain Packs are sold under the **Elastic License 2.0** with commercial use righ
 
 ---
 
-**Want more value?** The [Complete Bundle](complete_bundle/) gives you all 31 roles for $199 (66% off individual prices).
+**Want more value?** The [Complete Bundle](complete_bundle/) gives you all 31 roles for $79/mo (72% off individual subscriptions).

@@ -60,7 +60,7 @@ RoleForge is a framework-agnostic YAML library of **31 production-grade AI agent
 **Remaining premium roles exist ONLY on local machine** at:
 
 ```
-C:\Users\sorat\Desktop\Coding\portfolio_my\roleforge\store\starter_pack\
+./store/starter_pack\
 ```
 
 And in the original backup directories (not in Git).

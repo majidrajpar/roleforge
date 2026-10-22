@@ -1,6 +1,9 @@
 """
-Validation script for all 31 roles in the library.
-Runs deterministic validators and reports any issues.
+Validation script for the roles shipped in this repo (the free starter catalog).
+
+The full 31-role catalog is split: the 3 free roles live here in `roles/`, and the
+28 paid roles are stored locally outside the repo (see `restore_paid_roles.py`).
+Every export via `export_opencode_agents.py` validates the combined catalog.
 """
 from __future__ import annotations
 

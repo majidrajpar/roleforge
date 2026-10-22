@@ -1,13 +1,13 @@
 # RoleForge Complete Bundle
 
-**$199 one-time** ⭐ BEST VALUE
+**$79/mo — cancel anytime** ⭐ BEST VALUE
 
 ## What's Included
 
 - **All 31 agent roles** across 7 domains
 - **All framework overlays** (CrewAI + LangGraph)
 - **All 9 pre-built LangGraph graph templates**
-- **12 months of updates** (new roles, framework adapters)
+- **Continuous updates** (new roles, framework adapters)
 - **Private Discord community** access
 - **Priority GitHub issue support**
 
@@ -20,15 +20,15 @@
 | Governance | 4 roles |
 | Philosophy | 4 roles |
 | Creative Writing | 4 roles |
-| Book Writing | 4 roles |
+| Book Writing | 3 roles |
 | Data Analysis | 5 roles |
 
 ## Pricing Psychology
 
-- Individual role price: ~$19
-- 31 × $19 = **$589**
-- Complete Bundle: **$199**
-- **You save 66%**
+- Individual role price: ~$9/mo
+- 31 × $9 = **$279/mo** (subscribing to each individually)
+- Complete Bundle: **$79/mo**
+- **You save 72%**
 
 ## How to Buy
 

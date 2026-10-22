@@ -21,7 +21,7 @@ RoleForge = 31 production-grade agent personas across 7 domains:
 - Governance (4)
 - Philosophy (4)
 - Creative Writing (4)
-- Book Writing (4)
+- Book Writing (3)
 - Data Analysis (5)
 
 YAML definitions + adapters for CrewAI, LangChain, LangGraph.
