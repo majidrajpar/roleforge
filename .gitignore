@@ -79,9 +79,6 @@ public/roleforge-data/
 .ipynb_checkpoints/
 *.ipynb_checkpoints
 
-# uv
-uv.lock
-
 # Premium store content (not in public repo)
 # The store/ READMEs are public. Actual premium role bundles
 # are packaged and distributed via Gumroad.

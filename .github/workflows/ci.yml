@@ -37,6 +37,5 @@ jobs:
 
     - name: Check code formatting (black)
       run: |
-        uv add --dev black
         uv run black --check src/ tests/
       continue-on-error: true
