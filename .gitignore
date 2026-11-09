@@ -87,3 +87,6 @@ public/roleforge-data/
 # Draft response files
 response_to_jamie*.md
 axelrod_simulation.py
+
+# Internal agent context prompts
+docs/AI_CONTEXT.md
